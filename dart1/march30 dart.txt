@@ -1,0 +1,19 @@
+parameters : void sum (a,b);a & b are parameter
+arguments :  when giving  values during 
+
+function with parameters and arguments 
+
+import'dart:io';
+void main(){
+  print("Enter first num");
+  var a = int.parse(stdin.readLineSync()!);
+
+  print("Enter sec num");
+  var b = int.parse(stdin.readLineSync()!);
+  sum(a,b);
+  print(sum(a,b));
+}
+int sum (a,b){
+    return a*b;
+  
+}

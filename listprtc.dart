@@ -1,0 +1,53 @@
+import 'dart:io';
+
+void main() {
+  List a = [12, 22, 33, 44, 22];
+  // print(a);
+  // a.sort();
+  // print(a);
+  // // print(a.reversed);
+  // a.add(199);
+  // // a.addAll([122, 333, 444]);
+  // a.addAll([222, 555, 44]);
+  // print(a);
+  // // print('Add new value.');
+  // // var input = int.parse(stdin.readLineSync()!);
+  // // a.add(input);
+  // print(a);
+  // print(a.first);
+  // print(a.last);
+  // // print(a.elementAt(3));
+  // a.replaceRange(2, 3, [1, 1, 1, 1]);
+  // print(a);
+  // print(a.firstWhere((element) => element == 44));
+  // a.skip(22);
+  // print(a);
+
+  // // num b = a.fold(a[0], (a, b) => int.parse(a.toString()) + b);
+  // // print(b);
+  // num b = a.fold(a.first, (a, b) => b > int.parse(a.toString()) ? b : a);
+  // print(b);
+  // a.shuffle();
+  // a.clear();
+  print(a);
+  // a.fillRange(0, a.length, 1);
+  // print(a);
+  // a.forEach((element) => element == 1 ? print(a[0]) : print('not 1'));
+  // print(a.toSet());
+  // a.toList();
+  // print(a);
+  // print(a.lastIndexWhere((element) => element == 22));
+  // print(a.lastWhere((element) => element == 12));
+  // var c = a.skipWhile((value) => value < 22);
+  // print(a);
+  // print(a.takeWhile((value) => value == 12));
+  // a.retainWhere((element) => element < 22);
+  var b = a.reduce((value, element) => value + element);
+  print(b);
+  var c = a.sublist(1, 3);
+  print(c);
+  var d = a.skipWhile((value) => value < 44);
+  print(d);
+  var e = a.asMap();
+  print(e);
+}

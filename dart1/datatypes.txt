@@ -1,0 +1,4 @@
+type inference =>
+Not all programming languages have type
+inference, but Dart does — and it’s a key component behind
+Dart’s power as a language.

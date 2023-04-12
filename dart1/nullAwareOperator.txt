@@ -1,0 +1,8 @@
+ NUllAwareOperator => if our method return null we can simply use ??('free)
+
+ parameter types => Named parameter , 
+
+fat arrow sign => void show()=> print('hi');
+
+
+

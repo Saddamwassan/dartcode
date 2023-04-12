@@ -1,0 +1,60 @@
+1.dowhile loop 
+ syntax = do {
+print();
+while(a<b)
+a++
+}
+
+2.Nested loop
+import 'dart:io';
+import 'dart:math';
+void main(){
+var c = true;
+var wait = 0;
+  do{
+    wait +=1;
+    var a = Random().nextInt(10);
+    print("Enter a num .");
+    var  b = int.parse(stdin.readLineSync()!); 
+    if(a==b){
+     print("value is equal .");
+     c = false;
+     print(wait);
+    }
+    else{
+      print("wait");
+    }
+
+  }
+  while(c==true);
+}
+
+3. Functions 
+block of code for reuseability of code.
+
+2 types of func:
+=predefined + only call
+=Userdefined + define +call
+
+Syntax = datatype functionname(){
+//statement
+}
+call 
+functionname(); in another func
+
+Example : 
+void main(){
+newf();  
+newf1();
+}
+
+void newf(){
+  print("Hi Everyone");
+}
+void newf1(){
+  print("Mohammad");
+}
+
+in C compiler checks bottom to top 
+in javascript top to bottom  2 func can be defined with same name.
+in dart top to bottom & cant define 2 func with same name.
